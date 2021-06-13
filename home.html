@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+
+
+
+</head>
+<body>
+    <!-- Navbar section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">Lawrence Yoshikawa</a>
+            
+            <!-- navbar hamburger menu -->
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="navbar__menu">
+                <li class="navbar__items">
+                    <a href="#home" class="navbar__links" id="home-page">
+                        Home
+                    </a>
+                </li>
+                <li class="navbar__items">
+                    <a href="#about" class="navbar__links" id="about-page">
+                        About
+                    </a>
+                </li>
+                <li class="navbar__items">
+                    <a href="#projects" class="navbar__links" id="projects-page">
+                        Projects
+                    </a>
+                </li>
+                <li class="navbar__items">
+                    <a href="#education" class="navbar__links" id="education-page">
+                        Education
+                    </a>
+                </li>
+                <li class="navbar__items">
+                    <a href="#contact" class="navbar__links" id="home-page">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--  Home section -->
+    <div class="home" id="home">
+        <div class="home__container">
+            <div class="home__text-1">Hello, my name is </div>
+            <div class="home__text-2">Lawrence Yoshikawa</div>
+            <div class="home__text-3">Welcome to my site</div>
+        </div>
+    </div>
+
+    <!-- About section -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About Me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="/img/L2 (2).jpg" alt="Profile Pic">
+                </div>
+                
+                <div class="column right">
+                    <div class="text">i'm Lawrence</div>
+                    <p>
+                        A highly driven Computer Science student with a passion for programming, technology, and innovation. With experience in Python and knowledge in Java, SQL, HTML, and CSS, I seek opportunities to further my knowledge in software engineering and development, work with a team of passionate people, and be able to impact the world by building exciting applications and programs.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+        <div class="max-width">
+            <h2 class="title">My Projects</h2>
+            <div class="projects-content ">
+
+                <div class="card">
+                    <div class="box">
+                        <div class="text">MTG Arena Bot</div>
+                        <div class="placeholder"></div>
+                        <ul>
+                            <li>Developed an automated program that plays the card game, Magic: The Gathering Arena</li>
+                            <li>Implemented PIL, pytesseract, and pynput libraries to capture images of words from the game, allowing the program to read text from the image while controlling the mouse and keyboard to carry out instructions and play the game</li>
+                            
+                        </ul>
+                        
+                        <button>
+                            <a href="https://github.com/Lyoshikawa3914/MTGA_bot_public">
+                                Github
+                            </a>
+                        </button>                    
+                    </div>
+                    
+                </div>
+                
+
+                <div class="card">
+                    <div class="box">
+                        <div class="text">Flashcard App</div>
+                        <video controls>
+                            <source src="../site2/videos/Flashcard_app.m4v" type="video/mp4">
+                        </video>
+                        <ul>
+                            <li>Developed an application that allows one to help study vocabulary for their academic classes</li>
+                            <li>Utilized KivyMD framework to create a more user-friendly app</li>
+                            <li>Implemented SQLite to gather, store, and retrieve data from users, using if/else statements and for loops</li>
+                        </ul>
+                    </div>
+                    <button>
+                        <a href="https://github.com/Lyoshikawa3914/flashcard_app">
+                            Github
+                        </a>
+                    </button> 
+                </div>
+                
+
+                <div class="card">
+                    <div class="box">
+                        <div class="text">Planner App</div>
+                        <video controls>
+                            <source src="../site2/videos/Planner_app.m4v" type="video/mp4">
+                        </video>
+                        <ul>
+                            <li>Developed an application that allows one to help plan out their day</li>
+                            <li>Utilized Kivy framework to create a user-friendly app</li>
+                            <li>Implemented SQLite to gather, store, and retrieve data from users, using if/else statements and for loops</li>
+                            <br>
+                        </ul>
+                    </div>
+                    <button>
+                        <a href="https://github.com/Lyoshikawa3914/Planner_app">
+                            Github
+                        </a>
+                    </button> 
+                </div>
+                
+                <div class="card">
+                    <div class="box">
+                        <div class="text">MTG Draft Simulator</div>
+                        <video controls>
+                            <source src="../site2/videos/Draft_simulator.m4v" type="video/mp4">
+                        </video>
+                        <ul>
+
+                            <li>Built a program that allows one to simulate a Magic: The Gathering booster draft</li>
+                            <li>Uploaded data from an excel spreadsheet, consisting of data such as the name and the ratings of the cards to a SQLite database</li>
+                            <li>The program will randomly select cards from SQLite database, insert them into lists, and will select and remove cards from each list 
+                                based on it's rating</li>
+                        </ul>
+                        
+                    </div>
+                    <button>
+                        <a href="https://github.com/Lyoshikawa3914/MTG_draft_simulator">
+                            Github
+                        </a>
+                    </button> 
+                </div>
+                
+
+                <div class="card">
+                    <div class="box">
+                        
+                        <div class="text">Card Buying Bot</div>
+                        <img src="../img/Practice – C__Users_lyosh_OneDrive_Desktop_Kekoa_Folder_Projects_MTG_automated_card_buyer_card_buyer.py PyCharm 6_8_2021 5_32_07 PM.png" alt="Thumbnail of Card Buying Bot">
+                        <ul>
+                            <li>Developed a bot using Selenium that buys Magic: the Gathering cards from CardKingdom automatically</li>
+                            <li>Implented python classes, if/else statements, and for loops to randomly selects a deck based on the user's budget</li>
+                            
+                        </ul>
+                    </div>
+                    <button>
+                        <a href="https://github.com/Lyoshikawa3914/MTG_Automated_Card_Buyer">
+                            Github
+                        </a>
+                    </button> 
+                </div>  
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section class="education" id="education">
+        <div class="max-width">
+            <h2 class="title">Education</h2>
+            <div class="education-content">
+                <div class="card">
+                    <div class="box">
+                        <br>
+                        <br>
+                        <h4 class="schoolName">Western Governors University</h4>
+                        <p>Bachelors of Science: Computer Science | Graduation: 2022</p>
+                        <br>
+                        
+
+                        <h4 class="schoolName">Universtiy of Washington</h4>
+                        <p>Bachelor of Arts and Science: Biology | Graduation: 2016</p>
+                        <br>
+
+                        <h4 class="schoolName">Pierce College</h4>
+                        <p>Associates of Science: Biology | Graduation: 2014</p>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact</h2>
+            <div class="contact-content">
+                <div class="card">
+                    <div class="box">
+                        <div class="row">
+                            <i class="far fa-envelope icon"></i>
+                            <div class="contact-items">
+                                <p>Lyoshikawa3914@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="row">
+                            <i class="fab fa-linkedin icon"></i>
+                            <div class="contact-items">
+                                <a href="https://www.linkedin.com/in/lawrence-yoshikawa/" style>LinkedIn</a>
+                            </div>
+
+                        </div>
+                        
+                        
+                        <div class="row">
+                            <i class="fab fa-github icon"></i>
+                            <div class="contact-items">
+                                <a href="https://github.com/Lyoshikawa3914" style>Github</a>
+                            </div>
+                        </div>
+                        
+
+                        
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+        <span>Created by <a>Lawrence Yoshikawa</a> | 2021</span>
+    </footer>
+
+
+    <script src="active.js"></script>
+    <script src="https://kit.fontawesome.com/12734edfde.js" crossorigin="anonymous"></script>
+</body>
+</html>
